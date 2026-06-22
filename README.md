@@ -1,4 +1,4 @@
-### FastAPI LLM Chatbot
+### fastapi llm chatbot
 FastAPI와 React를 활용한 LLM(Large Language Model) 기반 AI 챗봇 실습 프로젝트
 
 ### 프로젝트 소개

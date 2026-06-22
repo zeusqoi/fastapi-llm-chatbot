@@ -22,14 +22,12 @@ FastAPI와 React를 활용한 LLM(Large Language Model) 기반 AI 챗봇 실습 
 #### Backend
 ```bash
 cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn main:app --reload --port 8080
 ```
 #### Frontend
 ```bash
 cd frontend/product-app
-npm install
-npm run dev
+npm run dev -- --port 3000
 ```
 
 ### 주요 기능

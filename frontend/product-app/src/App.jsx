@@ -21,6 +21,7 @@ function App() {
     // 입력 후 전송하면 입력창 비우기
     const currentInput = inputText
     setInputText("")
+    
     try{
       // FastAPI 서버로 메시지 전송
       const response = await fetch("http://127.0.0.1:8080/api/chat", {
